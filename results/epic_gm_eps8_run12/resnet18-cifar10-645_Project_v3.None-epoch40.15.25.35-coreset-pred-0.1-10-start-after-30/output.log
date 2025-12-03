@@ -1,0 +1,330 @@
+11/24/2025 13:49:14 - WARNING - __main__ -   device: cuda:0, n_gpu: 1
+11/24/2025 13:49:14 - INFO - __main__ -   {'ap_model': False, 'arch': 'resnet18', 'backdoor': False, 'batch_size': 128, 'clean': False, 'cluster_thresh': 1.0, 'ctime': 0, 'dataset': 'cifar10', 'device': device(type='cuda', index=0), 'drop_after': 30, 'drop_mile': False, 'epochs': 40, 'equal_num': False, 'gpu_id': 0, 'greedy': 'LazyGreedy', 'lr': 0.1, 'metric': 'euclidean', 'n_gpu': 1, 'nesterov': True, 'no_aug': False, 'no_progress': False, 'num_workers': 4, 'out': 'results/epic_gm_eps8_run12/resnet18-cifar10-645_Project_v3.None-epoch40.15.25.35-coreset-pred-0.1-10-start-after-30', 'patch_size': 5, 'poisons_path': '/home/r0liu015/645project_last/poisoning-benchmark/poison_examples_gm/645_Project_v3/12', 'resume': '', 'scenario': 'scratch', 'seed': None, 'start_epoch': 0, 'steps': [15, 25, 35], 'stop_after': 200, 'subset_freq': 10, 'subset_sampler': 'coreset-pred', 'subset_size': 0.1, 'top_frac': 0.1, 'trigger_path': None, 'wdecay': 0.0005, 'world_size': 1}
+11/24/2025 13:49:15 - INFO - __main__ -   500 poisons in this trial.
+11/24/2025 13:49:15 - INFO - __main__ -   Total params: 11.17M
+11/24/2025 13:49:15 - INFO - __main__ -   Target class 9; Poisoned label: 2
+11/24/2025 13:49:15 - INFO - __main__ -   ***** Running training *****
+11/24/2025 13:49:15 - INFO - __main__ -     Num Epochs = 40
+11/24/2025 13:49:15 - INFO - __main__ -     Batch size per GPU = 128
+11/24/2025 13:49:15 - INFO - __main__ -     Total train batch size = 128
+11/24/2025 13:49:15 - INFO - __main__ -   ***** Epoch 0 *****
+11/24/2025 13:49:32 - INFO - __main__ -   top-1 acc: 38.17
+11/24/2025 13:49:32 - INFO - __main__ -   top-5 acc: 88.85
+11/24/2025 13:49:32 - INFO - __main__ -   Best top-1 acc: 38.17
+11/24/2025 13:49:32 - INFO - __main__ -   Mean top-1 acc: 38.17
+11/24/2025 13:49:32 - INFO - __main__ -   Target acc: False
+11/24/2025 13:49:32 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:49:32 - INFO - __main__ -   ***** Epoch 1 *****
+11/24/2025 13:49:48 - INFO - __main__ -   top-1 acc: 46.54
+11/24/2025 13:49:48 - INFO - __main__ -   top-5 acc: 91.32
+11/24/2025 13:49:48 - INFO - __main__ -   Best top-1 acc: 46.54
+11/24/2025 13:49:48 - INFO - __main__ -   Mean top-1 acc: 42.36
+11/24/2025 13:49:48 - INFO - __main__ -   Target acc: True
+11/24/2025 13:49:48 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:49:48 - INFO - __main__ -   ***** Epoch 2 *****
+11/24/2025 13:50:04 - INFO - __main__ -   top-1 acc: 58.46
+11/24/2025 13:50:04 - INFO - __main__ -   top-5 acc: 96.31
+11/24/2025 13:50:04 - INFO - __main__ -   Best top-1 acc: 58.46
+11/24/2025 13:50:04 - INFO - __main__ -   Mean top-1 acc: 47.72
+11/24/2025 13:50:04 - INFO - __main__ -   Target acc: True
+11/24/2025 13:50:04 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:50:04 - INFO - __main__ -   ***** Epoch 3 *****
+11/24/2025 13:50:20 - INFO - __main__ -   top-1 acc: 60.90
+11/24/2025 13:50:20 - INFO - __main__ -   top-5 acc: 96.62
+11/24/2025 13:50:20 - INFO - __main__ -   Best top-1 acc: 60.90
+11/24/2025 13:50:20 - INFO - __main__ -   Mean top-1 acc: 51.02
+11/24/2025 13:50:20 - INFO - __main__ -   Target acc: True
+11/24/2025 13:50:20 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:50:20 - INFO - __main__ -   ***** Epoch 4 *****
+11/24/2025 13:50:36 - INFO - __main__ -   top-1 acc: 66.33
+11/24/2025 13:50:36 - INFO - __main__ -   top-5 acc: 97.26
+11/24/2025 13:50:36 - INFO - __main__ -   Best top-1 acc: 66.33
+11/24/2025 13:50:36 - INFO - __main__ -   Mean top-1 acc: 54.08
+11/24/2025 13:50:36 - INFO - __main__ -   Target acc: True
+11/24/2025 13:50:36 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:50:36 - INFO - __main__ -   ***** Epoch 5 *****
+11/24/2025 13:50:53 - INFO - __main__ -   top-1 acc: 67.89
+11/24/2025 13:50:53 - INFO - __main__ -   top-5 acc: 97.55
+11/24/2025 13:50:53 - INFO - __main__ -   Best top-1 acc: 67.89
+11/24/2025 13:50:53 - INFO - __main__ -   Mean top-1 acc: 56.38
+11/24/2025 13:50:53 - INFO - __main__ -   Target acc: True
+11/24/2025 13:50:53 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:50:53 - INFO - __main__ -   ***** Epoch 6 *****
+11/24/2025 13:51:09 - INFO - __main__ -   top-1 acc: 71.54
+11/24/2025 13:51:09 - INFO - __main__ -   top-5 acc: 97.88
+11/24/2025 13:51:09 - INFO - __main__ -   Best top-1 acc: 71.54
+11/24/2025 13:51:09 - INFO - __main__ -   Mean top-1 acc: 58.55
+11/24/2025 13:51:09 - INFO - __main__ -   Target acc: True
+11/24/2025 13:51:09 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:51:09 - INFO - __main__ -   ***** Epoch 7 *****
+11/24/2025 13:51:25 - INFO - __main__ -   top-1 acc: 77.00
+11/24/2025 13:51:25 - INFO - __main__ -   top-5 acc: 98.64
+11/24/2025 13:51:25 - INFO - __main__ -   Best top-1 acc: 77.00
+11/24/2025 13:51:25 - INFO - __main__ -   Mean top-1 acc: 60.85
+11/24/2025 13:51:25 - INFO - __main__ -   Target acc: True
+11/24/2025 13:51:25 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:51:25 - INFO - __main__ -   ***** Epoch 8 *****
+11/24/2025 13:51:41 - INFO - __main__ -   top-1 acc: 76.04
+11/24/2025 13:51:41 - INFO - __main__ -   top-5 acc: 98.58
+11/24/2025 13:51:41 - INFO - __main__ -   Best top-1 acc: 77.00
+11/24/2025 13:51:41 - INFO - __main__ -   Mean top-1 acc: 62.54
+11/24/2025 13:51:41 - INFO - __main__ -   Target acc: True
+11/24/2025 13:51:41 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:51:41 - INFO - __main__ -   ***** Epoch 9 *****
+11/24/2025 13:51:57 - INFO - __main__ -   top-1 acc: 78.51
+11/24/2025 13:51:57 - INFO - __main__ -   top-5 acc: 98.61
+11/24/2025 13:51:57 - INFO - __main__ -   Best top-1 acc: 78.51
+11/24/2025 13:51:57 - INFO - __main__ -   Mean top-1 acc: 64.14
+11/24/2025 13:51:57 - INFO - __main__ -   Target acc: True
+11/24/2025 13:51:57 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:51:57 - INFO - __main__ -   ***** Epoch 10 *****
+11/24/2025 13:52:14 - INFO - __main__ -   top-1 acc: 80.86
+11/24/2025 13:52:14 - INFO - __main__ -   top-5 acc: 98.98
+11/24/2025 13:52:14 - INFO - __main__ -   Best top-1 acc: 80.86
+11/24/2025 13:52:14 - INFO - __main__ -   Mean top-1 acc: 65.66
+11/24/2025 13:52:14 - INFO - __main__ -   Target acc: True
+11/24/2025 13:52:14 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:52:14 - INFO - __main__ -   ***** Epoch 11 *****
+11/24/2025 13:52:30 - INFO - __main__ -   top-1 acc: 79.12
+11/24/2025 13:52:30 - INFO - __main__ -   top-5 acc: 98.53
+11/24/2025 13:52:30 - INFO - __main__ -   Best top-1 acc: 80.86
+11/24/2025 13:52:30 - INFO - __main__ -   Mean top-1 acc: 66.78
+11/24/2025 13:52:30 - INFO - __main__ -   Target acc: True
+11/24/2025 13:52:30 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:52:30 - INFO - __main__ -   ***** Epoch 12 *****
+11/24/2025 13:52:46 - INFO - __main__ -   top-1 acc: 83.09
+11/24/2025 13:52:46 - INFO - __main__ -   top-5 acc: 99.24
+11/24/2025 13:52:46 - INFO - __main__ -   Best top-1 acc: 83.09
+11/24/2025 13:52:46 - INFO - __main__ -   Mean top-1 acc: 68.03
+11/24/2025 13:52:46 - INFO - __main__ -   Target acc: True
+11/24/2025 13:52:46 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:52:46 - INFO - __main__ -   ***** Epoch 13 *****
+11/24/2025 13:53:02 - INFO - __main__ -   top-1 acc: 80.77
+11/24/2025 13:53:02 - INFO - __main__ -   top-5 acc: 99.22
+11/24/2025 13:53:02 - INFO - __main__ -   Best top-1 acc: 83.09
+11/24/2025 13:53:02 - INFO - __main__ -   Mean top-1 acc: 68.94
+11/24/2025 13:53:02 - INFO - __main__ -   Target acc: True
+11/24/2025 13:53:02 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:53:02 - INFO - __main__ -   ***** Epoch 14 *****
+11/24/2025 13:53:18 - INFO - __main__ -   top-1 acc: 81.68
+11/24/2025 13:53:18 - INFO - __main__ -   top-5 acc: 98.83
+11/24/2025 13:53:18 - INFO - __main__ -   Best top-1 acc: 83.09
+11/24/2025 13:53:18 - INFO - __main__ -   Mean top-1 acc: 69.79
+11/24/2025 13:53:18 - INFO - __main__ -   Target acc: True
+11/24/2025 13:53:18 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:53:18 - INFO - __main__ -   ***** Epoch 15 *****
+11/24/2025 13:53:35 - INFO - __main__ -   top-1 acc: 89.46
+11/24/2025 13:53:35 - INFO - __main__ -   top-5 acc: 99.66
+11/24/2025 13:53:35 - INFO - __main__ -   Best top-1 acc: 89.46
+11/24/2025 13:53:35 - INFO - __main__ -   Mean top-1 acc: 71.02
+11/24/2025 13:53:35 - INFO - __main__ -   Target acc: True
+11/24/2025 13:53:35 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:53:35 - INFO - __main__ -   ***** Epoch 16 *****
+11/24/2025 13:53:51 - INFO - __main__ -   top-1 acc: 89.57
+11/24/2025 13:53:51 - INFO - __main__ -   top-5 acc: 99.66
+11/24/2025 13:53:51 - INFO - __main__ -   Best top-1 acc: 89.57
+11/24/2025 13:53:51 - INFO - __main__ -   Mean top-1 acc: 72.11
+11/24/2025 13:53:51 - INFO - __main__ -   Target acc: True
+11/24/2025 13:53:51 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:53:51 - INFO - __main__ -   ***** Epoch 17 *****
+11/24/2025 13:54:07 - INFO - __main__ -   top-1 acc: 90.34
+11/24/2025 13:54:07 - INFO - __main__ -   top-5 acc: 99.74
+11/24/2025 13:54:07 - INFO - __main__ -   Best top-1 acc: 90.34
+11/24/2025 13:54:07 - INFO - __main__ -   Mean top-1 acc: 73.13
+11/24/2025 13:54:07 - INFO - __main__ -   Target acc: True
+11/24/2025 13:54:07 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:54:07 - INFO - __main__ -   ***** Epoch 18 *****
+11/24/2025 13:54:23 - INFO - __main__ -   top-1 acc: 90.22
+11/24/2025 13:54:23 - INFO - __main__ -   top-5 acc: 99.66
+11/24/2025 13:54:23 - INFO - __main__ -   Best top-1 acc: 90.34
+11/24/2025 13:54:23 - INFO - __main__ -   Mean top-1 acc: 74.03
+11/24/2025 13:54:23 - INFO - __main__ -   Target acc: True
+11/24/2025 13:54:23 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:54:23 - INFO - __main__ -   ***** Epoch 19 *****
+11/24/2025 13:54:39 - INFO - __main__ -   top-1 acc: 90.58
+11/24/2025 13:54:39 - INFO - __main__ -   top-5 acc: 99.58
+11/24/2025 13:54:40 - INFO - __main__ -   Best top-1 acc: 90.58
+11/24/2025 13:54:40 - INFO - __main__ -   Mean top-1 acc: 74.85
+11/24/2025 13:54:40 - INFO - __main__ -   Target acc: True
+11/24/2025 13:54:40 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:54:40 - INFO - __main__ -   ***** Epoch 20 *****
+11/24/2025 13:54:56 - INFO - __main__ -   top-1 acc: 90.80
+11/24/2025 13:54:56 - INFO - __main__ -   top-5 acc: 99.70
+11/24/2025 13:54:56 - INFO - __main__ -   Best top-1 acc: 90.80
+11/24/2025 13:54:56 - INFO - __main__ -   Mean top-1 acc: 77.48
+11/24/2025 13:54:56 - INFO - __main__ -   Target acc: True
+11/24/2025 13:54:56 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:54:56 - INFO - __main__ -   ***** Epoch 21 *****
+11/24/2025 13:55:12 - INFO - __main__ -   top-1 acc: 90.60
+11/24/2025 13:55:12 - INFO - __main__ -   top-5 acc: 99.67
+11/24/2025 13:55:12 - INFO - __main__ -   Best top-1 acc: 90.80
+11/24/2025 13:55:12 - INFO - __main__ -   Mean top-1 acc: 79.69
+11/24/2025 13:55:12 - INFO - __main__ -   Target acc: True
+11/24/2025 13:55:12 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:55:12 - INFO - __main__ -   ***** Epoch 22 *****
+11/24/2025 13:55:28 - INFO - __main__ -   top-1 acc: 91.02
+11/24/2025 13:55:28 - INFO - __main__ -   top-5 acc: 99.70
+11/24/2025 13:55:28 - INFO - __main__ -   Best top-1 acc: 91.02
+11/24/2025 13:55:28 - INFO - __main__ -   Mean top-1 acc: 81.32
+11/24/2025 13:55:28 - INFO - __main__ -   Target acc: True
+11/24/2025 13:55:28 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:55:28 - INFO - __main__ -   ***** Epoch 23 *****
+11/24/2025 13:55:45 - INFO - __main__ -   top-1 acc: 91.50
+11/24/2025 13:55:45 - INFO - __main__ -   top-5 acc: 99.74
+11/24/2025 13:55:45 - INFO - __main__ -   Best top-1 acc: 91.50
+11/24/2025 13:55:45 - INFO - __main__ -   Mean top-1 acc: 82.85
+11/24/2025 13:55:45 - INFO - __main__ -   Target acc: True
+11/24/2025 13:55:45 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:55:45 - INFO - __main__ -   ***** Epoch 24 *****
+11/24/2025 13:56:01 - INFO - __main__ -   top-1 acc: 91.04
+11/24/2025 13:56:01 - INFO - __main__ -   top-5 acc: 99.70
+11/24/2025 13:56:01 - INFO - __main__ -   Best top-1 acc: 91.50
+11/24/2025 13:56:01 - INFO - __main__ -   Mean top-1 acc: 84.08
+11/24/2025 13:56:01 - INFO - __main__ -   Target acc: True
+11/24/2025 13:56:01 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:56:01 - INFO - __main__ -   ***** Epoch 25 *****
+11/24/2025 13:56:17 - INFO - __main__ -   top-1 acc: 91.65
+11/24/2025 13:56:17 - INFO - __main__ -   top-5 acc: 99.72
+11/24/2025 13:56:17 - INFO - __main__ -   Best top-1 acc: 91.65
+11/24/2025 13:56:17 - INFO - __main__ -   Mean top-1 acc: 85.27
+11/24/2025 13:56:17 - INFO - __main__ -   Target acc: True
+11/24/2025 13:56:17 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:56:17 - INFO - __main__ -   ***** Epoch 26 *****
+11/24/2025 13:56:33 - INFO - __main__ -   top-1 acc: 91.81
+11/24/2025 13:56:33 - INFO - __main__ -   top-5 acc: 99.72
+11/24/2025 13:56:33 - INFO - __main__ -   Best top-1 acc: 91.81
+11/24/2025 13:56:33 - INFO - __main__ -   Mean top-1 acc: 86.28
+11/24/2025 13:56:33 - INFO - __main__ -   Target acc: True
+11/24/2025 13:56:33 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:56:33 - INFO - __main__ -   ***** Epoch 27 *****
+11/24/2025 13:56:49 - INFO - __main__ -   top-1 acc: 91.78
+11/24/2025 13:56:49 - INFO - __main__ -   top-5 acc: 99.72
+11/24/2025 13:56:49 - INFO - __main__ -   Best top-1 acc: 91.81
+11/24/2025 13:56:49 - INFO - __main__ -   Mean top-1 acc: 87.02
+11/24/2025 13:56:49 - INFO - __main__ -   Target acc: True
+11/24/2025 13:56:49 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:56:49 - INFO - __main__ -   ***** Epoch 28 *****
+11/24/2025 13:57:05 - INFO - __main__ -   top-1 acc: 91.85
+11/24/2025 13:57:05 - INFO - __main__ -   top-5 acc: 99.74
+11/24/2025 13:57:05 - INFO - __main__ -   Best top-1 acc: 91.85
+11/24/2025 13:57:05 - INFO - __main__ -   Mean top-1 acc: 87.81
+11/24/2025 13:57:05 - INFO - __main__ -   Target acc: True
+11/24/2025 13:57:05 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:57:05 - INFO - __main__ -   ***** Epoch 29 *****
+11/24/2025 13:57:22 - INFO - __main__ -   top-1 acc: 92.14
+11/24/2025 13:57:22 - INFO - __main__ -   top-5 acc: 99.74
+11/24/2025 13:57:22 - INFO - __main__ -   Best top-1 acc: 92.14
+11/24/2025 13:57:22 - INFO - __main__ -   Mean top-1 acc: 88.49
+11/24/2025 13:57:22 - INFO - __main__ -   Target acc: True
+11/24/2025 13:57:22 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:57:22 - INFO - __main__ -   ***** Epoch 30 *****
+11/24/2025 13:57:22 - INFO - __main__ -   Identifying small clusters at epoch 30...
+11/24/2025 13:58:06 - INFO - __main__ -   top-1 acc: 91.76
+11/24/2025 13:58:06 - INFO - __main__ -   top-5 acc: 99.73
+11/24/2025 13:58:06 - INFO - __main__ -   Best top-1 acc: 92.14
+11/24/2025 13:58:06 - INFO - __main__ -   Mean top-1 acc: 89.04
+11/24/2025 13:58:06 - INFO - __main__ -   Target acc: True
+11/24/2025 13:58:06 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:58:06 - INFO - __main__ -   ***** Epoch 31 *****
+11/24/2025 13:58:21 - INFO - __main__ -   top-1 acc: 91.90
+11/24/2025 13:58:21 - INFO - __main__ -   top-5 acc: 99.70
+11/24/2025 13:58:21 - INFO - __main__ -   Best top-1 acc: 92.14
+11/24/2025 13:58:21 - INFO - __main__ -   Mean top-1 acc: 89.68
+11/24/2025 13:58:21 - INFO - __main__ -   Target acc: True
+11/24/2025 13:58:21 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:58:21 - INFO - __main__ -   ***** Epoch 32 *****
+11/24/2025 13:58:37 - INFO - __main__ -   top-1 acc: 91.92
+11/24/2025 13:58:37 - INFO - __main__ -   top-5 acc: 99.70
+11/24/2025 13:58:37 - INFO - __main__ -   Best top-1 acc: 92.14
+11/24/2025 13:58:37 - INFO - __main__ -   Mean top-1 acc: 90.12
+11/24/2025 13:58:37 - INFO - __main__ -   Target acc: True
+11/24/2025 13:58:37 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:58:37 - INFO - __main__ -   ***** Epoch 33 *****
+11/24/2025 13:58:52 - INFO - __main__ -   top-1 acc: 92.07
+11/24/2025 13:58:52 - INFO - __main__ -   top-5 acc: 99.75
+11/24/2025 13:58:52 - INFO - __main__ -   Best top-1 acc: 92.14
+11/24/2025 13:58:52 - INFO - __main__ -   Mean top-1 acc: 90.68
+11/24/2025 13:58:52 - INFO - __main__ -   Target acc: True
+11/24/2025 13:58:52 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:58:52 - INFO - __main__ -   ***** Epoch 34 *****
+11/24/2025 13:59:07 - INFO - __main__ -   top-1 acc: 91.87
+11/24/2025 13:59:07 - INFO - __main__ -   top-5 acc: 99.68
+11/24/2025 13:59:07 - INFO - __main__ -   Best top-1 acc: 92.14
+11/24/2025 13:59:07 - INFO - __main__ -   Mean top-1 acc: 91.19
+11/24/2025 13:59:07 - INFO - __main__ -   Target acc: True
+11/24/2025 13:59:07 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:59:07 - INFO - __main__ -   ***** Epoch 35 *****
+11/24/2025 13:59:23 - INFO - __main__ -   top-1 acc: 91.98
+11/24/2025 13:59:23 - INFO - __main__ -   top-5 acc: 99.74
+11/24/2025 13:59:23 - INFO - __main__ -   Best top-1 acc: 92.14
+11/24/2025 13:59:23 - INFO - __main__ -   Mean top-1 acc: 91.32
+11/24/2025 13:59:23 - INFO - __main__ -   Target acc: True
+11/24/2025 13:59:23 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:59:23 - INFO - __main__ -   ***** Epoch 36 *****
+11/24/2025 13:59:38 - INFO - __main__ -   top-1 acc: 92.00
+11/24/2025 13:59:38 - INFO - __main__ -   top-5 acc: 99.69
+11/24/2025 13:59:38 - INFO - __main__ -   Best top-1 acc: 92.14
+11/24/2025 13:59:38 - INFO - __main__ -   Mean top-1 acc: 91.44
+11/24/2025 13:59:38 - INFO - __main__ -   Target acc: True
+11/24/2025 13:59:38 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:59:38 - INFO - __main__ -   ***** Epoch 37 *****
+11/24/2025 13:59:54 - INFO - __main__ -   top-1 acc: 91.81
+11/24/2025 13:59:54 - INFO - __main__ -   top-5 acc: 99.71
+11/24/2025 13:59:54 - INFO - __main__ -   Best top-1 acc: 92.14
+11/24/2025 13:59:54 - INFO - __main__ -   Mean top-1 acc: 91.51
+11/24/2025 13:59:54 - INFO - __main__ -   Target acc: True
+11/24/2025 13:59:54 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 13:59:54 - INFO - __main__ -   ***** Epoch 38 *****
+11/24/2025 14:00:09 - INFO - __main__ -   top-1 acc: 91.85
+11/24/2025 14:00:09 - INFO - __main__ -   top-5 acc: 99.73
+11/24/2025 14:00:09 - INFO - __main__ -   Best top-1 acc: 92.14
+11/24/2025 14:00:09 - INFO - __main__ -   Mean top-1 acc: 91.60
+11/24/2025 14:00:09 - INFO - __main__ -   Target acc: True
+11/24/2025 14:00:09 - INFO - __main__ -   Poison acc: False
+
+11/24/2025 14:00:09 - INFO - __main__ -   ***** Epoch 39 *****
+11/24/2025 14:00:24 - INFO - __main__ -   top-1 acc: 92.02
+11/24/2025 14:00:24 - INFO - __main__ -   top-5 acc: 99.73
+11/24/2025 14:00:24 - INFO - __main__ -   Best top-1 acc: 92.14
+11/24/2025 14:00:24 - INFO - __main__ -   Mean top-1 acc: 91.67
+11/24/2025 14:00:24 - INFO - __main__ -   Target acc: True
+11/24/2025 14:00:24 - INFO - __main__ -   Poison acc: False
+
