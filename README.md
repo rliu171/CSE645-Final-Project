@@ -92,24 +92,23 @@ for f in {0..19}; do \
         --arch resnet18 \
         --poisons_path ../poisoning-benchmark-master/poison_examples_transfer/bp_poisons/$f \
         --scenario transfer \
-       --out results/bp/$f \
+        --out results/bp/$f \
 done
 
 ### Gradient Matching:
 
 for i in {0..19}; do \
- echo "================ defense $i ================" \
-  python train_poison_epic.py \ 
-	--gpu-id 0 \ 
-	--dataset cifar10 \ 
-	--arch resnet18 \ 
-	--poisons_path /home/r0liu015/645project_last/poisoning-benchmark/poison_examples_gm/645_Project_v3/$i \ 
-	--epochs 40 \ 
-	--batch-size 128 \ 
-	--subset_size 0.1 \ 
-	--subset_freq 10 \ 
-	--drop_after 30 \ 
-	--out results/epic_gm_eps8_run$i \
+	python train_poison_epic.py \
+		--gpu-id 0 \ 
+		--dataset cifar10 \ 
+		--arch resnet18 \ 
+		--poisons_path /home/r0liu015/645project_last/poisoning-benchmark/poison_examples_gm/645_Project_v3/$i \ 
+		--epochs 40 \ 
+		--batch-size 128 \ 
+		--subset_size 0.1 \ 
+		--subset_freq 10 \ 
+		--drop_after 30 \ 
+		--out results/epic_gm_eps8_run$i \
 done 
 
 
