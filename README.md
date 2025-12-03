@@ -1,12 +1,12 @@
 ## Generate Poisons:
 Feature Collision (FC) and Bullseye Polytope (BP) are under **transfer learning** setting. Gradient Matching (GM) is under **training from scratch** setting. We have 20 trials for each poison method. And after poison generation. We got 3 `.pickle` files for each trail.
 ### Feature Collision:
-for f in {0..19..1};do
-    python3 ./poison_crafting/craft_poisons_fc.py 
-    --poisons_path "poison_examples_transfer/fc_poisons/$f" 
-    --pretrain_dataset CIFAR100 --dataset CIFAR10  
-    --poison_setups "poison_setups/cifar10_transfer_learning.pickle" 
-    --setup_idx ${f}
+for f in {0..19..1};do \\
+    python3 ./poison_crafting/craft_poisons_fc.py \\
+    --poisons_path "poison_examples_transfer/fc_poisons/$f" \\
+    --pretrain_dataset CIFAR100 --dataset CIFAR10  \\
+    --poison_setups "poison_setups/cifar10_transfer_learning.pickle" \\
+    --setup_idx ${f} \\
 done
 
 ### Bullseye Polytope:
