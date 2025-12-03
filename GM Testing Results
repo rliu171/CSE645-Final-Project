@@ -1,0 +1,319 @@
+===== benchmark from scratch (40 epochs), seed 0 ===== 
+20251124 17:00:59 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/0, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 17:00:59 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 17:04:00  Epoch:  19 , Loss:  0.29049701495167546 , Training acc:  89.98 , Natural accuracy:  86.52 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 17:06:59  Epoch:  39 , Loss:  0.03479984592374824 , Training acc:  98.86 , Natural accuracy:  92.88 , poison success:  False 
+20251124 17:07:00  Training ended at epoch  39 , Natural accuracy:  92.88 
+20251124 17:07:00  poison success:  False  poisoned_label:  3  prediction:  7 
+ 
+===== benchmark from scratch (40 epochs), seed 1 ===== 
+20251124 17:07:02 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/1, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 17:07:02 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 17:10:03  Epoch:  19 , Loss:  0.2857277479851642 , Training acc:  90.098 , Natural accuracy:  84.59 , poison success:  True 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 17:13:01  Epoch:  39 , Loss:  0.03481947198805525 , Training acc:  98.878 , Natural accuracy:  93.34 , poison success:  True 
+20251124 17:13:02  Training ended at epoch  39 , Natural accuracy:  93.34 
+20251124 17:13:02  poison success:  True  poisoned_label:  5  prediction:  5 
+ 
+===== benchmark from scratch (40 epochs), seed 2 ===== 
+20251124 17:13:04 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/2, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 17:13:04 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 17:16:04  Epoch:  19 , Loss:  0.3046346359393176 , Training acc:  89.42 , Natural accuracy:  85.41 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 17:19:03  Epoch:  39 , Loss:  0.03990181424962285 , Training acc:  98.722 , Natural accuracy:  92.73 , poison success:  True 
+20251124 17:19:04  Training ended at epoch  39 , Natural accuracy:  92.73 
+20251124 17:19:04  poison success:  True  poisoned_label:  3  prediction:  3 
+ 
+===== benchmark from scratch (40 epochs), seed 3 ===== 
+20251124 17:19:06 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/3, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 17:19:06 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 17:22:06  Epoch:  19 , Loss:  0.2609817957710427 , Training acc:  90.942 , Natural accuracy:  87.46 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 17:25:04  Epoch:  39 , Loss:  0.02732027122569854 , Training acc:  99.152 , Natural accuracy:  93.61 , poison success:  False 
+20251124 17:25:05  Training ended at epoch  39 , Natural accuracy:  93.61 
+20251124 17:25:05  poison success:  False  poisoned_label:  6  prediction:  0 
+ 
+===== benchmark from scratch (40 epochs), seed 4 ===== 
+20251124 17:25:06 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/4, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 17:25:06 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 17:28:08  Epoch:  19 , Loss:  0.3107680255723426 , Training acc:  89.216 , Natural accuracy:  76.95 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 17:31:08  Epoch:  39 , Loss:  0.038035876761950416 , Training acc:  98.75 , Natural accuracy:  92.8 , poison success:  False 
+20251124 17:31:08  Training ended at epoch  39 , Natural accuracy:  92.8 
+20251124 17:31:08  poison success:  False  poisoned_label:  7  prediction:  1 
+ 
+===== benchmark from scratch (40 epochs), seed 5 ===== 
+20251124 17:31:10 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/5, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 17:31:10 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 17:34:10  Epoch:  19 , Loss:  0.30239474708619324 , Training acc:  89.648 , Natural accuracy:  85.51 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 17:37:07  Epoch:  39 , Loss:  0.038022535082543524 , Training acc:  98.784 , Natural accuracy:  93.01 , poison success:  False 
+20251124 17:37:08  Training ended at epoch  39 , Natural accuracy:  93.01 
+20251124 17:37:08  poison success:  False  poisoned_label:  1  prediction:  0 
+ 
+===== benchmark from scratch (40 epochs), seed 6 ===== 
+20251124 17:37:20 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/6, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 17:37:20 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 17:40:20  Epoch:  19 , Loss:  0.32626518277484745 , Training acc:  88.648 , Natural accuracy:  84.45 , poison success:  True 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 17:43:18  Epoch:  39 , Loss:  0.04357430150332239 , Training acc:  98.574 , Natural accuracy:  92.87 , poison success:  True 
+20251124 17:43:18  Training ended at epoch  39 , Natural accuracy:  92.87 
+20251124 17:43:18  poison success:  True  poisoned_label:  9  prediction:  9 
+ 
+===== benchmark from scratch (40 epochs), seed 7 ===== 
+20251124 17:43:20 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/7, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 17:43:20 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 17:46:20  Epoch:  19 , Loss:  0.30715075062821284 , Training acc:  89.312 , Natural accuracy:  84.0 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+^[20251124 17:49:17  Epoch:  39 , Loss:  0.03846096415953982 , Training acc:  98.796 , Natural accuracy:  93.18 , poison success:  False 
+20251124 17:49:18  Training ended at epoch  39 , Natural accuracy:  93.18 
+20251124 17:49:18  poison success:  False  poisoned_label:  6  prediction:  4 
+ 
+===== benchmark from scratch (40 epochs), seed 8 ===== 
+20251124 17:49:20 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/8, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 17:49:20 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 17:52:20  Epoch:  19 , Loss:  0.30714982267840746 , Training acc:  89.286 , Natural accuracy:  85.78 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 17:55:18  Epoch:  39 , Loss:  0.04017644143089309 , Training acc:  98.696 , Natural accuracy:  93.01 , poison success:  False 
+20251124 17:55:19  Training ended at epoch  39 , Natural accuracy:  93.01 
+20251124 17:55:19  poison success:  False  poisoned_label:  9  prediction:  8 
+ 
+===== benchmark from scratch (40 epochs), seed 9 ===== 
+20251124 17:55:21 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/9, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 17:55:21 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 17:58:21  Epoch:  19 , Loss:  0.2993770530232993 , Training acc:  89.612 , Natural accuracy:  85.2 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 18:01:19  Epoch:  39 , Loss:  0.03548087912213886 , Training acc:  98.87 , Natural accuracy:  92.83 , poison success:  False 
+20251124 18:01:20  Training ended at epoch  39 , Natural accuracy:  92.83 
+20251124 18:01:20  poison success:  False  poisoned_label:  0  prediction:  4 
+ 
+===== benchmark from scratch (40 epochs), seed 10 ===== 
+20251124 18:01:22 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/10, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 18:01:22 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 18:04:22  Epoch:  19 , Loss:  0.31025897949705344 , Training acc:  89.238 , Natural accuracy:  82.7 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 18:07:20  Epoch:  39 , Loss:  0.039824061624496185 , Training acc:  98.658 , Natural accuracy:  93.05 , poison success:  False 
+20251124 18:07:20  Training ended at epoch  39 , Natural accuracy:  93.05 
+20251124 18:07:20  poison success:  False  poisoned_label:  1  prediction:  5 
+ 
+===== benchmark from scratch (40 epochs), seed 11 ===== 
+20251124 18:07:22 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/11, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 18:07:22 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 18:10:23  Epoch:  19 , Loss:  0.3222543197824522 , Training acc:  88.934 , Natural accuracy:  83.62 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 18:13:21  Epoch:  39 , Loss:  0.043960276020505014 , Training acc:  98.542 , Natural accuracy:  92.58 , poison success:  False 
+20251124 18:13:22  Training ended at epoch  39 , Natural accuracy:  92.58 
+20251124 18:13:22  poison success:  False  poisoned_label:  0  prediction:  4 
+ 
+===== benchmark from scratch (40 epochs), seed 12 ===== 
+20251124 18:13:23 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/12, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 18:13:23 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 18:16:24  Epoch:  19 , Loss:  0.2870902682814147 , Training acc:  90.028 , Natural accuracy:  84.16 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 18:19:23  Epoch:  39 , Loss:  0.03360437403749818 , Training acc:  98.896 , Natural accuracy:  93.3 , poison success:  False 
+20251124 18:19:24  Training ended at epoch  39 , Natural accuracy:  93.3 
+20251124 18:19:24  poison success:  False  poisoned_label:  2  prediction:  9 
+ 
+===== benchmark from scratch (40 epochs), seed 13 ===== 
+20251124 18:19:25 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/13, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 18:19:25 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 18:22:26  Epoch:  19 , Loss:  0.2962953102634386 , Training acc:  89.642 , Natural accuracy:  86.67 , poison success:  True 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 18:25:24  Epoch:  39 , Loss:  0.0355295811260543 , Training acc:  98.868 , Natural accuracy:  92.8 , poison success:  True 
+20251124 18:25:25  Training ended at epoch  39 , Natural accuracy:  92.8 
+20251124 18:25:25  poison success:  True  poisoned_label:  9  prediction:  9 
+ 
+===== benchmark from scratch (40 epochs), seed 14 ===== 
+20251124 18:25:27 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/14, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 18:25:27 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 18:28:26  Epoch:  19 , Loss:  0.2819195256932922 , Training acc:  90.348 , Natural accuracy:  80.11 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 18:31:21  Epoch:  39 , Loss:  0.0314823767477575 , Training acc:  99.012 , Natural accuracy:  93.36 , poison success:  False 
+20251124 18:31:22  Training ended at epoch  39 , Natural accuracy:  93.36 
+20251124 18:31:22  poison success:  False  poisoned_label:  4  prediction:  8 
+ 
+===== benchmark from scratch (40 epochs), seed 15 ===== 
+20251124 18:31:24 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/15, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 18:31:24 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 18:34:25  Epoch:  19 , Loss:  0.28967394944651964 , Training acc:  89.85 , Natural accuracy:  86.24 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 18:37:23  Epoch:  39 , Loss:  0.03330919601123237 , Training acc:  98.926 , Natural accuracy:  93.4 , poison success:  False 
+20251124 18:37:24  Training ended at epoch  39 , Natural accuracy:  93.4 
+20251124 18:37:24  poison success:  False  poisoned_label:  6  prediction:  0 
+ 
+===== benchmark from scratch (40 epochs), seed 16 ===== 
+20251124 18:37:25 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/16, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 18:37:25 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 18:40:27  Epoch:  19 , Loss:  0.2892878283472622 , Training acc:  90.02 , Natural accuracy:  85.88 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 18:43:26  Epoch:  39 , Loss:  0.03514651258659485 , Training acc:  98.86 , Natural accuracy:  93.08 , poison success:  True 
+20251124 18:43:27  Training ended at epoch  39 , Natural accuracy:  93.08 
+20251124 18:43:27  poison success:  True  poisoned_label:  3  prediction:  3 
+ 
+===== benchmark from scratch (40 epochs), seed 17 ===== 
+20251124 18:43:29 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/17, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 18:43:29 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 18:46:32  Epoch:  19 , Loss:  0.28279072088201335 , Training acc:  90.106 , Natural accuracy:  84.55 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 18:49:32  Epoch:  39 , Loss:  0.03262360212202553 , Training acc:  98.968 , Natural accuracy:  93.32 , poison success:  False 
+20251124 18:49:32  Training ended at epoch  39 , Natural accuracy:  93.32 
+20251124 18:49:32  poison success:  False  poisoned_label:  4  prediction:  8 
+ 
+===== benchmark from scratch (40 epochs), seed 18 ===== 
+20251124 18:49:34 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/18, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 18:49:34 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 18:52:36  Epoch:  19 , Loss:  0.30313879826946943 , Training acc:  89.442 , Natural accuracy:  85.68 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 18:55:36  Epoch:  39 , Loss:  0.040345991432876385 , Training acc:  98.7 , Natural accuracy:  92.73 , poison success:  False 
+20251124 18:55:37  Training ended at epoch  39 , Natural accuracy:  92.73 
+20251124 18:55:37  poison success:  False  poisoned_label:  0  prediction:  4 
+ 
+===== benchmark from scratch (40 epochs), seed 19 ===== 
+20251124 18:55:39 benchmark_test.py running. 
+Testing poisons from poison_examples_gm/645_Project_v3/19, in the FROM SCRATCH setting... 
+From Scratch training with ResNet18 for cifar10 
+20251124 18:55:39 poison_test.py main() running. 
+500  poisons in this trial. 
+Files already downloaded and verified 
+Files already downloaded and verified 
+Files already downloaded and verified 
+==> Training network... 
+20251124 18:58:40  Epoch:  19 , Loss:  0.3188474634114434 , Training acc:  88.82 , Natural accuracy:  85.04 , poison success:  False 
+Adjusting learning rate  0.10000000000000002 -> 0.010000000000000002 
+20251124 19:01:38  Epoch:  39 , Loss:  0.03872634362562767 , Training acc:  98.748 , Natural accuracy:  92.59 , poison success:  True 
+20251124 19:01:39  Training ended at epoch  39 , Natural accuracy:  92.59 
+20251124 19:01:39  poison success:  True  poisoned_label:  3  prediction:  3 
