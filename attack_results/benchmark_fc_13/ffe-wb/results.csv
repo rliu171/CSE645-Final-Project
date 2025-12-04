@@ -1,0 +1,2 @@
+poisons path,model,target class,base class,num poisons,max perturbation norm,epoch,loss,training_acc,natural_acc,poison_acc
+poison_examples_transfer/fc_poisons/13,pretrained_models/ResNet18_CIFAR100.pth,6,9,25,0.035294145345687866,39,0.6586854130029678,77.48,69.68,False
